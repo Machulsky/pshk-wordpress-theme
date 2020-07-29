@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*
+Theme Name: College Educational
+Theme URI: 
+Author: Petr Machulskiy
+Author URI: https://vk.com/id231555809
+Description: Responsive theme for Pahskovskiy Agricultural College
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pshk
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.content-container h5{
+	font-size: 20px;
+}
+.breadcrumb{
+	background: transparent;
+	font-size: 16px;
+}
+
+.breadcrumb .breadcrumb-item a{
+	font-size: 16px;
+}
+
+.child-pages{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.child-pages li a{
+	
+	font-size: 14px;
+}
+
+.child-pages li {
+	margin-top:10px;
+}
+
+.sidebar h5{
+	font-size:16px;
+}
+
+.bvi-button{
+	position:absolute;
+	top:30px;
+	right: 100px;
+}
+.navbar .container-fluid {   
+    display: flex;
+    justify-content: center;
+}
+
+#welcome .owl-carousel .card-footer{
+	
+	
+}
+
+.subnav .navbar-toggler {
+	text-align:left !important;
+}
+.page-numbers {
+padding: 1% 1%;
+box-shadow: 0 0 5px #ccc;
+margin: 0 0.5% 0 0;
+background: #fff;
+border-radius: 3px;
+	font-size:16px !important;
+}
+strong{
+	font-weight: bold;
+}
+@media (max-width: 600px) {
+	h1{
+		font-size: 35px !important;
+		line-height:40px !important;
+	}
+	#welcome .col-md-7{
+		margin-left:15px !important;
+	}
+}
