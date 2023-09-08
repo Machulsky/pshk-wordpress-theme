@@ -111,7 +111,7 @@ class bs4Navwalker extends Walker_Nav_Menu
             $manual_class = array_values($classes)[0] .' '. 'dropdown-item';
             $atts ['class']= $manual_class;
         }
-        if (in_array('current-menu-item', $item->classes)) {
+        if (in_array('current-menu-item', $classes)) {
             $atts['class'] .= ' active';
         }
         // print_r($item);

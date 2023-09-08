@@ -17,7 +17,7 @@
     
     <nav class="navbar navbar-expand-sm  header-menu sticky-top">
 		<?php echo do_shortcode('[bvi text=" "]'); ?>
-      <div class="container align-items-center">
+      <div class="container-fluid align-items-center">
         <a href="<?=home_url()?>" class="navbar-brand">Пашковский <br> Сельскохозяйственный <br> Колледж</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
@@ -38,12 +38,12 @@
           <ul>
             
             <div class="row align-items-center">
-              <div class="col-3" style="padding-right: 0px;">
+<!--               <div class="col-3" style="padding-right: 0px;">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/header-phones.png" alt="">
-              </div>
-              <div class="col-9" style="margin-left: 0; padding-left: 0;">
-                <li><span>Приемная комиссия</span> <phone>8 (861) 237-48-37</phone></li>
-            <li><span>Приемная директора</span> <phone>8 (861) 237-48-37</phone></li>
+              </div> -->
+              <div class="col-12" style="margin-left: 8px;">
+                <li><span style="">Приемная комиссия</span> <phone style="font-size:16px; font-weight: 600;">8 (861) 237-48-37</phone></li>
+<!--             <li><span>Приемная директора</span> <phone>8 (861) 237-48-37</phone></li> -->
               </div>
             </div>
             
